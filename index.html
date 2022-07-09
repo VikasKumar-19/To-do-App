@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codedamn Project</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- start writing your code -->
+    <main>
+      <header class="header">
+        <h1>Add Todo List</h1>
+        <hr
+          style="
+            width: 30px;
+            border: 0px;
+            height: 2px;
+            background: white;
+            border-radius: 3px;
+          "
+        />
+      </header>
+      <div>
+        <form class="add_task_container">
+          <input
+            style="
+              outline: none;
+              border: none;
+              padding: 0px 10px;
+              width: 100%;
+              min-width: 200px;
+            "
+            type="text"
+            placeholder="Add Task..."
+            name=""
+            id=""
+          />
+          <button type="submit" class="add_btn">
+            <span style="font-size: 20px" class="material-icons-outlined">
+              add
+            </span>
+          </button>
+          <button type="button" class="add_btn remove_btn">
+            <span style="font-size: 20px" class="material-icons-outlined">
+              delete
+            </span>
+          </button>
+        </form>
+      </div>
+      <div class="tasksList_container"></div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
